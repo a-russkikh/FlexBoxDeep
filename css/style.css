@@ -1,16 +1,19 @@
 .box {
   display: flex;
-  width: 900px;
+  max-width: 1000px;
   border: 1px solid #000;
-  height: 400px;
+  height: 800px;
 }
 .text {
   border: 1px solid #ccc;
+  width: 200px;
 }
 
 .text:nth-child(1) {
-  flex-grow: 1;
+  /* flex-basis: 2; */
+  /* width: 200px; */
 }
 .text:nth-child(2) {
-  flex-grow: 2;
+  /* flex-basis: 1; */
+  /* width: 200px; */
 }
