@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+  width: 900px;
+  border: 1px solid #000;
+  height: 400px;
+}
+.text {
+  border: 1px solid #ccc;
+}
+
+.text:nth-child(1) {
+  flex-grow: 1;
+}
+.text:nth-child(2) {
+  flex-grow: 2;
+}
